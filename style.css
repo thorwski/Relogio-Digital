@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://images6.alphacoders.com/301/301504.jpg");
+  background-size: cover;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.relogio {
+  display: flex;
+}
+
+.relogio div {
+  margin: 5px;
+  position: relative;
+}
+
+.relogio span {
+  width: 100px;
+  height: 80px;
+  background: lightskyblue;
+  color: white;
+  display: flex;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+.relogio .texto {
+  height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: darkslategray; 
+  opacity: 0.8;
+}
+
+.relogio #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background-color: blueviolet;
+}
