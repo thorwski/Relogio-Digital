@@ -8,6 +8,7 @@ body {
   justify-content: center;
   background: url("https://images6.alphacoders.com/301/301504.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 
 h2 {
